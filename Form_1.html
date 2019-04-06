@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Form Registrasi</title>
+    <title>Form Pencarian</title>
 </head>
 <body>
     <style>
@@ -36,7 +36,7 @@
         }
         #form_inpt {
             /* background: yellowgreen; */
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family:cursive;
             color: powderblue;
             text-align: left;
             padding-top: 140px;
@@ -57,10 +57,11 @@
             text-align: right;
         }
         .kotak_ovl {
-            border: 1px solid whitesmoke;
+            border: 1px solid  rgb(0, 255, 2);
             border-radius: 10px;
             width: 250px;
-            background: whitesmoke;
+            background:  rgba(0, 255, 2, 0.5);
+            padding: 5px;
             color: black;
             text-align: center;
         }
@@ -68,7 +69,7 @@
             height: 300px;
             padding: 20px;
             border: 3px solid whitesmoke;
-            background: rgba(255, 255, 255, 0.7);
+            background: rgba(255, 255, 255, 0.5);
             color: black;
         }
         .huruf_bsr {
@@ -79,7 +80,7 @@
         <img src="http://www.clker.com/cliparts/I/7/e/i/M/N/house-icon-md.png" witdh="80px" height="80px" alt="">
     </div>
     <div id="menu_hd">
-        <table align="right">
+        <table align="right" style="font-family: cursive">
             <tr>
                 <td class="kotak_trsp">Host a home</td>
                 <td class="kotak_trsp">Host an experiance</td>
@@ -95,7 +96,7 @@
                 <div class="huruf_bsr">Book unique homes and <br>experiences.</div>
             </th>
             <tr>
-                <td colspan="2" style="padding-top: 25px;">WHERE</td>
+                <td colspan="2" style="padding-top: 25px;"><b>WHERE</b></td>
             </tr>
             <tr>
                 <td colspan="2">
@@ -105,8 +106,8 @@
                 </td>
             </tr>
             <tr>
-                <td style="padding-top: 15px;">CHECK-IN</td>
-                <td style="padding-top: 15px;">CHECKOUT</td>
+                <td style="padding-top: 15px;"><b>CHECK-IN</b></td>
+                <td style="padding-top: 15px;"><b>CHECKOUT</b></td>
             </tr>
             <tr>
                 <td>
@@ -121,7 +122,7 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="2" style="padding-top: 15px;">GUEST</td>
+                <td colspan="2" style="padding-top: 15px;"><b>GUEST</b></td>
             </tr>
             <tr>
                 <td colspan="2">
@@ -135,8 +136,8 @@
             </tr>
             <tr>
                 <td colspan="2">
-                <form action="" style="text-align-last:right; margin-top: 50px;">
-                    <input type="submit" value="Search" style="background:orangered; padding: 5px; border: 1px solid orangered;">
+                <form action="" style="text-align-last: right; margin-top: 50px;">
+                    <input type="submit" value="Search" style="background:rgba(0, 255, 2, 0.5); padding: 5px; border: 1px solid rgb(0, 255, 2); font-family: cursive">
                 </form>
                 </td>
             </tr>
@@ -145,7 +146,7 @@
     <div id="button_ft">
         <table align="right">
             <tr>
-                <td class="kotak_ovl">Term, Privacy, Currency & More</td>
+                <td class="kotak_ovl"><i>Term Privacy, Currency & More></i></td>
             </tr>
         </table>
     </div>
