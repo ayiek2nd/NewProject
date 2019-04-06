@@ -11,86 +11,73 @@
         html {
             background-size: 1600px;
             /* background-size: 100%; */
-            background-image: url(https://dmarket.com/blog/best-dota2-wallpapers/tb2_hu486374aa0d7918fdcf5ea697c0808e40_573725_1920x1080_resize_q75_box.jpg);
+            background-image: url(https://wallpapercave.com/wp/wp1906154.jpg);
         }
         #logo_hd {
             width: 15%;
-            /* background: blue; */
             float: left;
-            color: powderblue;
-            text-align: left;
-            padding-top: 5px;
-            padding-left: 55px;
-            padding-bottom: 5px;
-            height: 40px;
+            padding-top: 10px;
+            padding-left: 50px;
         }
         #menu_hd {
             width: 80%;
-            /* background: red; */
             float: right;
-            color: powderblue;
-            text-align: right;
             padding-top: 10px;
-            height: 40px;
+            font-family: cursive;
         }
         #form_inpt {
-            /* background: yellowgreen; */
             font-family:cursive;
-            color: powderblue;
             text-align: left;
             padding-top: 140px;
-            height: 585px;
+            height: 580px;
         }
         #button_ft {
-            /* background: peru; */
             color: powderblue;
-            text-align: right;
-            padding-top: 10px;
             padding-right: 20px;
-            padding-bottom: 15px;
-            height: 20px;
         }
         .kotak_trsp {
-            border: 1px solid rgba(255, 255, 255, 0);
+            border: 1px solid rgba(0, 255, 2, 0);
             border-inline-end-width: 50px;
-            text-align: right;
         }
         .kotak_ovl {
             border: 1px solid  rgb(0, 255, 2);
-            border-radius: 10px;
+            border-radius: 5px;
             width: 250px;
-            background:  rgba(0, 255, 2, 0.5);
+            background:  rgba(0, 255, 2, 0.3);
             padding: 5px;
-            color: black;
             text-align: center;
         }
         .kotak_psg { 
+            border: 3px solid powderblue;
+            border-radius: 5px;
             height: 300px;
             padding: 20px;
-            border: 3px solid powderblue;
-            background: rgba(176, 224, 230, 0.5);
+            background: rgba(176, 224, 230, 0.7);
             color: black;
+            margin-left: 350px;
         }
-        .huruf_bsr {
-            font-size: 24px;
+        .huruf_bsr {font-size: 30px;}
+        a {
+            text-decoration: none;
+            color: powderblue;
         }
     </style>
     <div id="logo_hd">
         <img src="http://www.clker.com/cliparts/I/7/e/i/M/N/house-icon-md.png" witdh="80px" height="80px" alt="">
     </div>
     <div id="menu_hd">
-        <table align="right" style="font-family: cursive">
+        <table align="right">
             <tr>
-                <td class="kotak_trsp">Host a home</td>
-                <td class="kotak_trsp">Host an experiance</td>
-                <td class="kotak_trsp">Help</td>
-                <td class="kotak_trsp">Sign up</td>
-                <td class="kotak_trsp">Login</td>
+                <td class="kotak_trsp"><a href="#">Host a home</a></td>
+                <td class="kotak_trsp"><a href="#">Host an experiance</a></td>
+                <td class="kotak_trsp"><a href="#">Help</a></td>
+                <td class="kotak_trsp"><a href="#">Sign up</a></td>
+                <td class="kotak_trsp"><a href="#">Login</a></td>
             </tr>
         </table>
     </div>
     <div id="form_inpt">
-        <table class="kotak_psg" align="center">
+        <table class="kotak_psg">
             <th colspan="2">
                 <div class="huruf_bsr">Book unique homes and<br>experiences.</div>
             </th>
@@ -100,7 +87,7 @@
             <tr>
                 <td colspan="2">
                 <form">
-                    <input name="WHERE" type="text" style="width: 288px; padding: 5px;"/>
+                    <input name="WHERE" type="text" style="width: 348px; padding: 5px;"/>
                 </form>
                 </td>
             </tr>
@@ -111,12 +98,12 @@
             <tr>
                 <td>
                 <form>
-                    <input name="CHECK-IN" type="date" style="width: 135px; padding: 5px;"/>
+                    <input name="CHECK-IN" type="date" style="width: 165px; padding: 5px;"/>
                 </form>
                 </td>
                 <td>
                 <form>
-                    <input name="CHECKOUT" type="date" style="width: 135px; padding: 5px;"/>
+                    <input name="CHECKOUT" type="date" style="width: 165px; padding: 5px;"/>
                 </form>
                 </td>
             </tr>
@@ -126,7 +113,7 @@
             <tr>
                 <td colspan="2">
                 <form action="/action_page.php">
-                    <select name="GUEST"  style="width: 300px; padding: 5px;">
+                    <select name="GUEST"  style="width: 360px; padding: 5px;">
                         <option value="Guest">Guest</option>
                         <option value="Member">Member</option>
                     </select>
@@ -136,7 +123,7 @@
             <tr>
                 <td colspan="2">
                 <form action="" style="text-align-last: right; margin-top: 50px;">
-                    <input type="submit" value="Search" style="background:rgba(0, 255, 2, 0.5); padding: 5px; border: 1px solid rgb(0, 255, 2); font-family: cursive">
+                    <input type="button" value="Search" style="background:rgba(0, 255, 2, 0.5); padding: 5px; border: 1px solid rgb(0, 255, 2); font-family: cursive">
                 </form>
                 </td>
             </tr>
@@ -145,7 +132,12 @@
     <div id="button_ft">
         <table align="right">
             <tr>
-                <td class="kotak_ovl"><i>Term Privacy, Currency & More</i></td>
+                <td style="padding-left: 180px;">Over 300</td>
+            </tr>
+            <tr>
+                <td class="kotak_ovl">
+                    <img src="https://cdn0.iconfinder.com/data/icons/startup-and-new-business-2-2/52/130-512.png" width="10px" height="10px">
+                    <a href="#"><i>Terms, Privacy, Currency & More</i></a></td>
             </tr>
         </table>
     </div>
